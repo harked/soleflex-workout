@@ -68,7 +68,7 @@ npm run start
 *   `ai:deploy`: Deploys the AI code.
 
 ## Technologies Used
-
+```
 *   Next.js
 *   React
 *   TypeScript
@@ -125,4 +125,5 @@ npm run start
 *   eslint
 *   eslint-config-next
 *   postcss
+```
 *   typescript
