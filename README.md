@@ -2,6 +2,9 @@
 
 Comprehensive workout program designed to enhance foot mobility, strength, and overall health using Next.js.
 
+<img width="1280" height="1663" alt="image" src="https://github.com/user-attachments/assets/211a7d35-c651-40c7-a5d1-878ed4602f8d" />
+
+
 ## Setup Instructions
 
 1.  **Clone the repository:**
