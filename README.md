@@ -125,5 +125,5 @@ npm run start
 *   eslint
 *   eslint-config-next
 *   postcss
-```
 *   typescript
+```
