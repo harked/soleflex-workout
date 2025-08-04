@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 175 50% 91.4%;
+    --foreground: 170 15% 25%;
+    --card: 175 50% 98%;
+    --card-foreground: 170 15% 25%;
+    --popover: 175 50% 98%;
+    --popover-foreground: 170 15% 25%;
+    --primary: 170 36% 55%;
+    --primary-foreground: 170 20% 10%;
+    --secondary: 175 40% 85%;
+    --secondary-foreground: 170 15% 25%;
+    --muted: 175 40% 85%;
+    --muted-foreground: 170 10% 45%;
+    --accent: 16 100% 67.6%;
+    --accent-foreground: 355 100% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 175 30% 80%;
+    --input: 175 30% 85%;
+    --ring: 170 36% 55%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 170 15% 10%;
+    --foreground: 175 30% 90%;
+    --card: 170 15% 12%;
+    --card-foreground: 175 30% 90%;
+    --popover: 170 15% 10%;
+    --popover-foreground: 175 30% 90%;
+    --primary: 170 36% 55%;
+    --primary-foreground: 170 20% 10%;
+    --secondary: 170 15% 20%;
+    --secondary-foreground: 175 30% 90%;
+    --muted: 170 15% 20%;
+    --muted-foreground: 175 20% 60%;
+    --accent: 16 100% 67.6%;
+    --accent-foreground: 355 100% 15%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 170 15% 25%;
+    --input: 170 15% 25%;
+    --ring: 170 36% 55%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
